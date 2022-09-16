@@ -96,3 +96,25 @@ ssh -T git@github.com
 ```
 
 ![git账号测试成功截图](https://s1.ax1x.com/2022/09/14/vvvYtJ.png)
+
+一些常见的git命令如下
+
+```shell
+常见git命令
+git init                        #把当前目录变成git可以管理的仓库（初始化）
+git add readme.txt              #添加一个文件，也可以添加文件夹
+git add -A                      #添加全部文件
+git rm test.txt                 #删除一个文件，也可以删除文件夹
+git commit -a -m "some commit"  #提交修改
+git status                      #查看是否还有未提交
+git log                         #查看最近日志
+git reset --hard HEAD^          #版本回退一个版本
+git reset --hard HEAD^^         #版本回退两个版本
+git reset --hard HEAD~100       #版本回退多个版本
+git remote add origin +地址     #远程仓库的提交（第一次链接）
+git push -u origin master       #仓库关联
+git push                        #远程仓库的提交（第二次及之后）
+git checkout -b xxxx            #新建 xxx 分支
+git push --set-upstream  origin  xxx   #第一次往 xxx 分支推送代码
+```
+
