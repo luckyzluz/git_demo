@@ -174,4 +174,6 @@ Git Version 2.x:
 
 图片测试
 
+![](https://cdn.jsdelivr.net/gh/luckyzluz/zblogBasics/images/202201112213232.svg+xml;charset=utf-8)
+
 ![333](https://webcall.oss-cn-qingdao.aliyuncs.com/41052/2022/9/16/e83bddeb6ab14940b0fef49c0e9a4af7.png)
